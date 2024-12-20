@@ -18,6 +18,7 @@ class Mas < Formula
   end
 
   depends_on xcode: ["14.2", :build]
+
   depends_on :macos
 
   def install
